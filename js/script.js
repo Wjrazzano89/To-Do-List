@@ -1,5 +1,4 @@
 function newItem(){
-
     let li = $('<li></li>');
     let inputValue = $('#input').val();
     li.append(inputValue);
@@ -25,8 +24,6 @@ function newItem(){
         function deleteListItem(){
         li.addClass("delete")
                 }
-        $('#list').sortable();
-            
         $('#list').sortable();
         
         }    
